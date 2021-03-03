@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package greeting.common.v1;
+
+option go_package = "github.com/rafascm/greeter-api/pkg/pb/greeting/common/v1;common_v1";
+
+message Message {
+  string name = 1;
+}
